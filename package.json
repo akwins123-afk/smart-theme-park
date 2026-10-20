@@ -1,0 +1,15 @@
+{
+  "name": "smart-theme-park",
+  "version": "1.0.0",
+  "description": "Smart Theme Park: RFID Wristband & Virtual Queue Management System (DBMS Review 3)",
+  "scripts": {
+    "setup": "cd server && npm install && node ../db/setup.js && cd ../client && npm install --legacy-peer-deps",
+    "seed": "node db/setup.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "dev": "node start-dev.js"
+  },
+  "keywords": ["dbms", "mysql", "rfid", "virtual-queue", "theme-park"],
+  "author": "Akash R (25BCE5354), Vasisht V (25BCE5748), Sri Balaji V (25BCE5697)",
+  "license": "ISC"
+}
